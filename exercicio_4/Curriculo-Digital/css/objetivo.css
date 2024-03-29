@@ -1,0 +1,35 @@
+main {
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 150px; */
+}
+
+main section {
+    height: 100vh;
+    margin-left: 30px;
+}
+
+
+h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+ul {
+    list-style-type: square;
+    margin-left: 15px;
+    padding: 0;
+}
+
+li {
+    font-size: 0.9em;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}

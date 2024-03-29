@@ -1,0 +1,14 @@
+@media (max-width: 700px) {
+    body {
+        flex-direction: column;
+    }
+    
+    header {
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    main section {
+        padding-bottom: 50px;
+    }
+}

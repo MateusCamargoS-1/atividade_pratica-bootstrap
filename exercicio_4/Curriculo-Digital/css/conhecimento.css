@@ -1,0 +1,38 @@
+main {
+    height: 80vh;
+}
+main h2 {
+    color: #333;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+main ol {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+
+    list-style: upper-alpha;
+    text-transform: uppercase;
+    margin-left: 50px;
+
+    transition: all 0.3s;
+}
+
+main ol li {
+    margin-right: 150px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    color: #555;
+}
+
+main ol li:hover {
+    transform: scale(1.1);
+}
+
+main ol li:last-child {
+    border-bottom: none;
+}

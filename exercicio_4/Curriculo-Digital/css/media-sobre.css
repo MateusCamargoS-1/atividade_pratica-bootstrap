@@ -1,0 +1,41 @@
+@media (max-width: 700px) {
+    body {
+        flex-direction: column;
+    }
+    
+    header {
+        width: 100%;
+        margin-bottom: 5em;
+    }
+
+    main .info .info-sobre div {
+        font-size: 0.8em;
+    }
+
+    main .info .info-sobre h1 {
+        font-size: 1.7em;
+        margin-bottom: 10px;
+    }
+
+
+    main .sobre-mim {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .sobre-mim p {
+        width: 100%;
+        text-align: justify;
+        font-size: 1em;
+    }
+
+    main .links-icons {
+        display: flex;
+        justify-content: center;
+    }
+    
+    main .links-icons a {  
+        margin-right: 10px;
+        margin-bottom: 2em;
+    }
+}

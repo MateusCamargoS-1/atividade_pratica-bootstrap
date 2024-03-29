@@ -1,0 +1,16 @@
+@media (max-width: 700px) {
+    body {
+        flex-direction: column;
+    }
+    
+    header {
+        width: 100%;
+        margin-bottom: 5em;
+    }
+    
+    main ol { 
+        font-size: 0.8em;
+        flex-wrap: nowrap;
+        height: 100vh;
+    }
+}

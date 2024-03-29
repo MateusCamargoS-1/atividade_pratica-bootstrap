@@ -1,0 +1,53 @@
+main section {
+    margin-left: 30px;
+}
+
+/* MAIN INFO */
+
+main .info {
+    align-self: first baseline;
+}
+
+main .info .info-sobre {
+    text-transform: uppercase;
+}
+
+main .info .info-sobre h1 {
+    font-size: 4em;
+}
+
+main .info .info-sobre h1 span {
+    color: #b26241;
+}
+
+main .info .info-sobre p {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+main .info .info-sobre p a {
+    color: #c87f64;
+}
+
+/* MAIN SOBRE-MIM */
+
+main .sobre-mim p {
+    width: 70%;
+    margin: 50px 0;
+}
+
+/* MAIN LINK ICONS */
+
+main .links-icons a {  
+    margin-right: 22px;
+    font-size: 1.4em;
+}
+
+main .links-icons a i {
+    color: #fff;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 150px;
+    transition: all 0.2s;
+}
+
